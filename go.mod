@@ -1,4 +1,4 @@
-module gopkg-gorm
+module github.com/ggymm/gopkg-gorm
 
 go 1.21
 
