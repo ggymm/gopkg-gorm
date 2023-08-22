@@ -56,11 +56,11 @@ func (l *CustomLog) Trace(_ context.Context, begin time.Time, fc func() (string,
 	if err != nil {
 		// 忽略记录不存在的错误
 		if !errors.Is(err, logger.ErrRecordNotFound) {
-			l.log.Error().Err(errors.WithStack(err)).Str("sql", sql).Str("file", file).
+			l.log.Error().Err(errors.WithStack(err)).Str("sql", sql).Str("source", file).
 				Str("costTime", costTime).Int64("rowsAffected", rows).Msg("SQLTrace")
 		}
 	} else {
-		l.log.Info().Str("sql", sql).Str("file", file).
+		l.log.Info().Str("sql", sql).Str("source", file).
 			Str("costTime", costTime).Int64("rowsAffected", rows).Msg("SQLTrace")
 	}
 }

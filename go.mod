@@ -3,7 +3,7 @@ module github.com/ggymm/gopkg-gorm
 go 1.21
 
 require (
-	github.com/ggymm/gopkg v1.0.6
+	github.com/ggymm/gopkg v1.0.7
 	github.com/pkg/errors v0.9.1
 	github.com/rs/zerolog v1.30.0
 	gorm.io/gorm v1.25.4
