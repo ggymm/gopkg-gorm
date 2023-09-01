@@ -11,7 +11,7 @@ import (
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/utils"
 
-	"github.com/ggymm/gopkg/log"
+	gopkglog "github.com/ggymm/gopkg/logger"
 )
 
 type CustomLog struct {
@@ -21,7 +21,7 @@ type CustomLog struct {
 
 func NewCustomLog(filename string) *CustomLog {
 	return &CustomLog{
-		log:      log.InitCustom(filename),
+		log:      gopkglog.InitCustom(filename),
 		LogLevel: logger.Info,
 	}
 }

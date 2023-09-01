@@ -16,4 +16,4 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 )
 
-//replace github.com/ggymm/gopkg => C:\Product\gopkg\gopkg
+replace github.com/ggymm/gopkg => C:\Product\gopkg\gopkg
