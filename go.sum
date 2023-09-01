@@ -1,6 +1,8 @@
 github.com/coreos/go-systemd/v22 v22.5.0/go.mod h1:Y58oyj3AT4RCenI/lSvhwexgC+NSVTIJ3seZv2GcEnc=
 github.com/ggymm/gopkg v1.0.7 h1:KY4XN6cafWVqhGxXXlq8hwu2w1Es9gbPIzaWX+hsBhU=
 github.com/ggymm/gopkg v1.0.7/go.mod h1:LpWgFzCj9CrODm1R/kkyQEGFDo74+nn/I7M5/LhRSII=
+github.com/ggymm/gopkg v1.0.9/go.mod h1:LpWgFzCj9CrODm1R/kkyQEGFDo74+nn/I7M5/LhRSII=
+github.com/ggymm/gopkg v1.1.0/go.mod h1:LpWgFzCj9CrODm1R/kkyQEGFDo74+nn/I7M5/LhRSII=
 github.com/godbus/dbus/v5 v5.0.4/go.mod h1:xhWf0FNVPg57R7Z0UbKHbJfkEywrmjJnf7w5xrFpKfA=
 github.com/jinzhu/inflection v1.0.0/go.mod h1:h+uFLlag+Qp1Va5pdKtLDYj+kHp5pxUVkryuEj+Srlc=
 github.com/jinzhu/now v1.1.5 h1:/o9tlHleP7gOFmsnYNz3RGnqzefHA47wQpKrrdTIwXQ=
