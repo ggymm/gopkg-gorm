@@ -21,7 +21,7 @@ type CustomLog struct {
 
 func NewCustomLog(filename string) *CustomLog {
 	return &CustomLog{
-		log:      gopkglog.InitCustom(filename),
+		log:      gopkglog.Init(filename),
 		LogLevel: logger.Info,
 	}
 }
